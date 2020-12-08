@@ -1,7 +1,9 @@
 .hero
-    background: #f1f1f1 url('../img/hero/hero-bg.jpg') no-repeat center right -70px
+    background: #f1f1f1 url('../img/hero/hero-bg.jpg') no-repeat top right
+    background-size: contain
     padding-top: 200px
     padding-bottom: 300px
+    margin-top: 80px
     &__title
         font-size: 30px
         margin-bottom: 40px
@@ -10,3 +12,7 @@
         font-size: 30px
         margin-bottom: 67px
         +bold
+@media (max-width: 991px)
+    .hero
+        background-size: 100%
+        background-position: top right
