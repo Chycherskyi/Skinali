@@ -221,8 +221,8 @@ body {
 .hero {
   background: #f1f1f1 url("../img/hero/hero-bg.jpg") no-repeat top right;
   background-size: contain;
-  padding-top: 200px;
-  padding-bottom: 300px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   margin-top: 80px;
 }
 
@@ -243,5 +243,32 @@ body {
     background-size: 100%;
     background-position: top right;
   }
+}
+
+.offer {
+  padding: 129px 0;
+}
+
+.offer-block {
+  background-color: #fff;
+  padding: 80px;
+}
+
+.offer__title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.offer__subtitle {
+  display: block;
+  font-size: 21px;
+}
+
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
