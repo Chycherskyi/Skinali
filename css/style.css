@@ -338,12 +338,13 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .form__input:last-child {
+  width: 100%;
   border-right-width: 1px;
 }
 
 .form__button {
-  height: 80px;
-  width: 100%;
+  height: 83px;
+  width: calc(100% + 32px);
 }
 
 @media (max-width: 768px) {
