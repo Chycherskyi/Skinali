@@ -43,6 +43,10 @@ body {
   font-family: 'Proxima Nova Light', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .section {
   padding: 100px 0;
 }
@@ -497,5 +501,16 @@ input[type="checkbox"]:checked + label:before {
   display: block;
   width: 550px;
   height: 180px;
+}
+
+@media (max-width: 1199px) {
+  .catalog-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .catalog-card {
+    max-width: 470px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
