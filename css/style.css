@@ -77,6 +77,23 @@ body {
   font-family: 'Proxima Nova Semibold', sans-serif;
 }
 
+.button-fitting {
+  color: #507fe1;
+  background-color: #fff;
+}
+
+.button-add {
+  background-color: #7c9fe8;
+  color: #fff;
+}
+
+.button-like {
+  background-color: #507fe1;
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+
 .input {
   height: 80px;
   padding-left: 30px;
@@ -424,5 +441,61 @@ input[type="checkbox"]:checked + label:before {
         flex-basis: 100%;
     margin-bottom: 50px;
   }
+}
+
+.catalog-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.catalog__card {
+  margin-bottom: 30px;
+}
+
+.catalog-card {
+  max-width: 570px;
+  position: relative;
+  -webkit-box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.1);
+          box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-card__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.catalog-card__button {
+  font-size: 11px;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  height: 30px;
+}
+
+.catalog-card__tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(80, 127, 225, 0.6);
+}
+
+.catalog-card__img {
+  display: block;
+  width: 550px;
+  height: 180px;
 }
 /*# sourceMappingURL=style.css.map */
