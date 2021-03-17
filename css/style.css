@@ -69,6 +69,7 @@ img {
   text-transform: uppercase;
   color: #507fe1;
   background-color: white;
+  text-decoration: none;
   font-family: 'Proxima Nova Semibold', sans-serif;
 }
 
@@ -78,6 +79,7 @@ img {
   padding: 25px 45px;
   background-color: #507fe1;
   color: #ffffff;
+  text-decoration: none;
   font-family: 'Proxima Nova Semibold', sans-serif;
 }
 
@@ -447,6 +449,10 @@ input[type="checkbox"]:checked + label:before {
   }
 }
 
+.catalog {
+  background-color: #f5f6f8;
+}
+
 .catalog-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -501,6 +507,20 @@ input[type="checkbox"]:checked + label:before {
   display: block;
   width: 550px;
   height: 180px;
+}
+
+.catalog__link {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.catalog__link-more {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.catalog__description {
+  display: block;
 }
 
 @media (max-width: 1199px) {
