@@ -665,8 +665,8 @@ input[type="checkbox"]:checked + label:before {
   bottom: 0;
   left: 0;
   width: 100%;
-  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   height: 80px;
   padding-top: 0;
@@ -679,5 +679,16 @@ input[type="checkbox"]:checked + label:before {
 
 .price-card__image {
   width: 280px;
+}
+
+@media (max-width: 991px) {
+  .price-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .price-card {
+    margin: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
