@@ -691,4 +691,33 @@ input[type="checkbox"]:checked + label:before {
     margin: 20px;
   }
 }
+
+.step {
+  position: relative;
+  text-align: center;
+}
+
+.step__title {
+  font-size: 18px;
+}
+
+.step__text {
+  max-width: 160px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.steps-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 /*# sourceMappingURL=style.css.map */
