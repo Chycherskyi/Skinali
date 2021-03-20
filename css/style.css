@@ -812,6 +812,10 @@ input[type="checkbox"]:checked + label:before {
   font-size: 20px;
 }
 
+.contacts {
+  background-color: #f6f7f9;
+}
+
 .contacts-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -842,5 +846,16 @@ input[type="checkbox"]:checked + label:before {
 
 .contacts__address {
   font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .contacts-block__item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contacts__address {
+    max-width: 200px;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
