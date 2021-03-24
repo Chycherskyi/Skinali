@@ -46,7 +46,7 @@
                         <a href="tel:+791234567" class="navbar__phone">+7 912 123-45-67</a>
                         <a href="mailto:info@mail.cu" class="navbar__email navbar__small-text">info@mail.cu</a>
                     </div>
-                    <button class="button-o navbar__button">Получить консультацию</button>
+                    <a href="#offer" class="button-o navbar__button">Получить консультацию</a>
                 </div>
                 <!-- /.navbar-wrap -->
             </div>
@@ -59,7 +59,7 @@
                     Гарантия <br>минимальной цени <br>на скинали
                 </h1>
                 <span class="hero__subtitle">от 3000 р.м2</span>
-                <button class="button hero__button">Заказать скинали</button>
+                <a href="#offer" class="button hero__button">Заказать скинали</a>
             </div>
         </div>
         <!-- /.hero -->
@@ -67,7 +67,7 @@
     <!-- /.header -->
 
     <main>
-        <section class="offer">
+        <section class="offer" id="offer">
             <div class="container">
                 <div class="offer__block offer-block">
                     <h2 class="offer__title">Оставьте заявку на расчет</h2>
@@ -88,11 +88,11 @@
                             </div>
                             <div class="form__group">
                                 <label for="" class="form__label">Ширина, см</label>
-                                <input type="text" class="input form__input">
+                                <input type="number" class="input form__input">
                             </div>
                             <div class="form__group">
                                 <label for="" class="form__label">Висота, см</label>
-                                <input type="text" class="input form__input">
+                                <input type="number" class="input form__input">
                             </div>
                         </div>
                         <div class="form__row form__row-checkbox">
@@ -744,6 +744,7 @@
     <script src="js/jquery.twentytwenty.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
 </body>
 
 </html>

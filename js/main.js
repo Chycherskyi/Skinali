@@ -24,4 +24,9 @@ $(window).load(function () {
                 $('.select__checked').text(value);
                 $('.select__dropdown').toggleClass('select__dropdown_open');
             });
+            $("a[href^='#']").click(function(){
+                var _href = $(this).attr("href");
+                $("html, body").animate({ scrollTop: $(_href).offset().top -220 + "px"});
+            });
+            $('input[type="tel"').mask("+48 999 999 999");
         });
